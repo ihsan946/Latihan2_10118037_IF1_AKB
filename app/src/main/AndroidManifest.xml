@@ -9,14 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Latihan2">
-        <activity android:name="com.app.ihsan946.latihan2_10118037_IF1.LoginActivity">
+        <activity android:name=".RegisterActivity">
+
+
+        </activity>
+        <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.app.ihsan946.latihan2_10118037_IF1.MainActivity"></activity>
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>
