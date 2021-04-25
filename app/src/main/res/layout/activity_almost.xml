@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/lightBlue"
+    tools:context=".AlmostActivity">
+
+    <TextView
+        android:id="@+id/teks1_Verify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Almost There"
+        android:fontFamily="@font/montserrat_light"
+        android:textColor="@color/white"
+        android:layout_marginTop="@dimen/dimen200"
+        android:textSize="30sp"
+        />
+    <TextView
+        android:id="@+id/teks2_Verify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/teks1_Verify"
+        android:text="Thank you for registering with us. One more"
+        android:textColor="@color/white"
+        android:fontFamily="@font/montserrat_light"
+        />
+    <TextView
+        android:id="@+id/teks3_Verify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/teks2_Verify"
+        android:layout_centerHorizontal="true"
+        android:text="step, you need check your email"
+        android:textColor="@color/white"
+        android:fontFamily="@font/montserrat_light"
+        />
+    <TextView
+        android:id="@+id/teks4_Verify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/teks3_Verify"
+        android:text="to active your account"
+        android:textColor="@color/white"
+        android:fontFamily="@font/montserrat_light"
+        />
+
+    <Button
+        android:id="@+id/btn_Verify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen30"
+        android:layout_marginRight="@dimen/dimen30"
+        android:layout_below="@id/teks4_Verify"
+        android:layout_marginTop="@dimen/dimen80"
+        android:background="@drawable/btn_verify"
+        android:text="Verifiy"
+        android:textColor="@color/white"
+        android:fontFamily="@font/montserrat_light"
+        android:textStyle="bold"
+        />
+
+
+
+</RelativeLayout>

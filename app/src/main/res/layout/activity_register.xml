@@ -207,6 +207,7 @@
         android:background="@drawable/buttonregister"
         android:text="REGISTER"
         android:textColor="@color/lightBlue"
+        android:onClick="pindahAlmost"
         />
 
 

@@ -20,4 +20,10 @@ public class RegisterActivity extends AppCompatActivity {
 
     }
 
+    public void pindahAlmost(View view){
+        Intent intent = new Intent(this, AlmostActivity.class);
+        startActivity(intent);
+
+    }
+
 }
