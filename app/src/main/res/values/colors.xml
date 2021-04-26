@@ -14,4 +14,5 @@
     <color name="fontDesc">#808284</color>
     <color name="background">#ffffff</color>
     <color name="inviteFriend">#f1f1f2</color>
+    <color name="grey">#F1F2F3</color>
 </resources>

@@ -61,6 +61,7 @@
         android:background="@drawable/btn_verify"
         android:text="Send"
         android:textColor="@color/white"
+        android:onClick="pindahMain"
         />
 
     <TextView

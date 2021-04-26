@@ -64,6 +64,7 @@
         android:textColor="@color/white"
         android:fontFamily="@font/montserrat_light"
         android:textStyle="bold"
+        android:onClick="pindahVerify"
         />
 
 
