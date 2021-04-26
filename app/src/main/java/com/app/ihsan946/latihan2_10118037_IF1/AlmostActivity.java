@@ -1,3 +1,8 @@
+//NIM : 10118037
+//NAMA : Muhammad Ihsan
+//Kelas : IF-1/S1/VI
+//Dibuat : April 2021
+
 package com.app.ihsan946.latihan2_10118037_IF1;
 
 import androidx.appcompat.app.AppCompatActivity;
